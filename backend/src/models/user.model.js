@@ -7,7 +7,7 @@ const userSchema = new mongoose.Schema({
     required: true
   },
 
-  emai: {
+  email: {
     type: String,
     unique: [true, 'Account already exist with this email address'],
     required: true
